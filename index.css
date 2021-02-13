@@ -66,9 +66,13 @@
   width: 3%;
   border-radius: 8px 0px 0px 8px;
 }
-.profile-image{
-  height: 70px;
-  width: 70px;
+
+
+@media (max-width: 900px){
+  .profile-image{
+    height: 40px;
+    width: 40px;
+  } 
 }
 
 .my-card-content{
